@@ -1,0 +1,13 @@
+train: /home/dabid/Desktop/IHRA_AI_training/object_seg/datasets/train/images
+val: /home/dabid/Desktop/IHRA_AI_training/object_seg/datasets/valid/images
+test: /home/dabid/Desktop/IHRA_AI_training/object_seg/datasets/test/images
+
+nc: 53
+names: ['apple', 'asparagus', 'avocado', 'banana', 'bean', 'beef', 'blueberry', 'bread', 'broccoli', 'butter', 'cabbage', 'carrot', 'cauliflower', 'cheese', 'chicken', 'chicken breast', 'chilli', 'chocolate', 'corn', 'cucumber', 'egg', 'eggplant', 'fish', 'flour', 'garlic', 'ginger', 'grape', 'ham', 'kiwi', 'leek', 'lemon', 'lettuce', 'lime', 'mango', 'milk', 'mushroom', 'onion', 'orange', 'pea', 'peach', 'pear', 'pepper', 'pineapple', 'potato', 'radish', 'sausage', 'spinach', 'strawberry', 'sweet potato', 'tomato', 'watermelon', 'yogurt', 'zucchini']
+
+roboflow:
+  workspace: fridgeingredients
+  project: fridge-object
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fridgeingredients/fridge-object/dataset/3
