@@ -50,22 +50,15 @@ IHRA_server_and_AI_training/
    cd IHRA_server_and_AI_training
    ```
 
-2. **Set up Python environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   pip install -r requirements.txt
-   ```
-
-3. **Download model weights**
+2. **Download model weights**
    - Place YOLO weights in `app/models/computer_vision/weights/`
    - Place Flan-T5 weights in `app/models/nlp/weights/`
    - Place CatBoost model in `app/models/regression/weights/`
 
-4. **Configure environment variables**
+3. **Configure environment variables**
    Create a `.env` file based on `.env.example` and set your configuration.
 
-5. **Run the server**
+4. **Run the server**
    ```bash
    flask run --host=0.0.0.0 --port=5000 (after run a tunneling service)
    ```
